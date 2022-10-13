@@ -12,7 +12,7 @@
   "version": "5.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tpisto/pdf-fill-form.git"
+    "url": "git://github.com/hippopotamus/pdf-fill-form.git"
   },
   "gypfile": true,
   "main": "./lib/pdf-fill-form.js",
@@ -20,7 +20,7 @@
     "node": ">10.0.0"
   },
   "dependencies": {
-    "nan": "^2.14.0"
+    "nan": "git+ssh://git@github.com:hippopotamus/nan.git"
   },
   "devDependencies": {},
   "optionalDependencies": {}
